@@ -1,0 +1,9 @@
+
+imapclient
+pyzmail36
+boto3
+selenium
+webdriver-manager
+pandas
+tenacity
+rich
