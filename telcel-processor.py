@@ -15,7 +15,7 @@ SMTP_HOST = 'smtp.gmail.com'
 SMTP_PORT = 587
 
 # Rutas absolutas de tu proyecto
-PROJECT_DIR = '/home/ec2-user/telcel-project'
+PROJECT_DIR = '/home/ec2-user/IFT-Processor/telcel-project'
 INPUT_CSV = os.path.join(PROJECT_DIR, 'numeros_recibidos.csv') # Archivo temporal para el CSV del correo
 OUTPUT_CSV = os.path.join(PROJECT_DIR, 'results.csv') # El scraper lo genera en la raíz del proyecto
 MAIN_SCRIPT = os.path.join(PROJECT_DIR, 'scraper-telcel.py')

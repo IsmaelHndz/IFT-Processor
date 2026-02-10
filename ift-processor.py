@@ -15,7 +15,7 @@ SMTP_HOST = 'smtp.gmail.com'
 SMTP_PORT = 587
 
 # Rutas absolutas de tu proyecto
-PROJECT_DIR = '/home/ec2-user/selenium-s3-processor'
+PROJECT_DIR = '/home/ec2-user/IFT-Processor/selenium-s3-processor'
 INPUT_CSV = os.path.join(PROJECT_DIR, 'data/input/numeros.csv')
 OUTPUT_CSV = os.path.join(PROJECT_DIR, 'data/output/resultados.csv')
 MAIN_SCRIPT = os.path.join(PROJECT_DIR, 'main-direct.py')
